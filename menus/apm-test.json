@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle apm-test",
+        "command": "apm-test:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "apm-test",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "apm-test:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
